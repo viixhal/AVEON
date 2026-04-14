@@ -1,0 +1,134 @@
+- generic [ref=e3]:
+  - generic [ref=e4]:
+    - generic [ref=e6]: MetaMask unavailable
+    - generic [ref=e7]: Cart 0
+  - generic [ref=e8]:
+    - banner [ref=e9]:
+      - generic [ref=e10]:
+        - img [ref=e12]
+        - generic [ref=e14]:
+          - strong [ref=e15]: Liquid Glass Store
+          - generic [ref=e16]: Apple-inspired commerce with MetaMask checkout
+      - generic [ref=e17]:
+        - generic [ref=e18]:
+          - img [ref=e19]
+          - generic [ref=e22]: Search products
+          - searchbox "Search products" [ref=e23]: Alienware
+        - button "Light" [ref=e24] [cursor=pointer]:
+          - img [ref=e25]
+          - text: Light
+        - button "Connect MetaMask" [ref=e31] [cursor=pointer]:
+          - img [ref=e32]
+          - text: Connect MetaMask
+    - main [ref=e36]:
+      - generic [ref=e37]:
+        - generic [ref=e38]:
+          - generic [ref=e39]:
+            - generic [ref=e40]: New UI Concept
+            - heading "Shop in a fluid glass world." [level=1] [ref=e41]
+            - paragraph [ref=e42]: Premium product browsing, animated panels, dark and light modes, and wallet-ready checkout.
+            - generic [ref=e43]:
+              - button "Buy featured item" [ref=e44] [cursor=pointer]:
+                - text: Buy featured item
+                - img [ref=e45]
+              - button "Connect wallet" [ref=e47] [cursor=pointer]
+          - button "Alienware AW2723DF Gaming Monitor - 25-inch Alienware AW2723DF Gaming Monitor - 25-inch Alienware gaming monitor with fast IPS panel and high-refresh visuals. 0.156 ETH ~$499" [ref=e161] [cursor=pointer]:
+            - img "Alienware AW2723DF Gaming Monitor - 25-inch" [ref=e162]
+            - generic [ref=e50]:
+              - generic [ref=e51]:
+                - strong [ref=e52]: Alienware AW2723DF Gaming Monitor - 25-inch
+                - generic [ref=e53]: Alienware gaming monitor with fast IPS panel and high-refresh visuals.
+              - generic [ref=e54]:
+                - strong [ref=e55]: 0.156 ETH
+                - generic [ref=e56]: ~$499
+        - generic [ref=e57]:
+          - generic [ref=e58]:
+            - generic [ref=e59]:
+              - heading "Featured products" [level=2] [ref=e60]
+              - paragraph [ref=e61]: Filter the shelf and tap any item for details.
+            - generic [ref=e62]:
+              - img [ref=e63]
+              - text: 1 items
+          - generic [ref=e64]:
+            - button "All" [ref=e65] [cursor=pointer]
+            - button "Headphones" [ref=e66] [cursor=pointer]
+            - button "Phones" [ref=e67] [cursor=pointer]
+            - button "Monitors" [ref=e68] [cursor=pointer]
+          - article [ref=e108]:
+            - generic [ref=e109]:
+              - img "Alienware AW2723DF Gaming Monitor - 25-inch" [ref=e110]
+              - generic [ref=e111]: Monitors
+              - button "Add to favorites" [ref=e112] [cursor=pointer]:
+                - img [ref=e113]
+            - generic [ref=e115]:
+              - generic [ref=e116]:
+                - strong [ref=e117]: Alienware AW2723DF Gaming Monitor - 25-inch
+                - generic [ref=e118]: Alienware gaming monitor with fast IPS panel and high-refresh visuals.
+              - generic [ref=e119]:
+                - generic [ref=e120]:
+                  - img [ref=e121]
+                  - text: "5"
+                - strong [ref=e123]: 0.156 ETH
+              - generic [ref=e124]:
+                - button "View" [active] [ref=e125] [cursor=pointer]
+                - button "Add" [ref=e126] [cursor=pointer]
+      - complementary [ref=e127]:
+        - generic [ref=e128]:
+          - generic [ref=e129]:
+            - generic [ref=e130]:
+              - heading "Wallet" [level=2] [ref=e131]
+              - paragraph [ref=e132]: MetaMask status and checkout readiness
+            - generic [ref=e133]: MetaMask unavailable
+          - paragraph [ref=e134]: Open this app in a regular browser with MetaMask installed to connect.
+          - generic [ref=e135]: Connected address
+          - strong [ref=e136]: No wallet connected
+          - button "Connect now" [ref=e137] [cursor=pointer]:
+            - img [ref=e138]
+            - text: Connect now
+        - generic [ref=e142]:
+          - generic [ref=e143]:
+            - heading "Cart" [level=2] [ref=e144]:
+              - img [ref=e145]
+              - text: Cart
+            - generic [ref=e148]: 0 items
+          - paragraph [ref=e150]: Your cart is empty. Add a few liquid glass products.
+          - generic [ref=e151]:
+            - generic [ref=e152]:
+              - generic [ref=e153]: Subtotal
+              - strong [ref=e154]: 0.000 ETH
+            - generic [ref=e155]:
+              - generic [ref=e156]: USD estimate
+              - strong [ref=e157]: $0
+            - button "Checkout with wallet" [ref=e158] [cursor=pointer]:
+              - img [ref=e159]
+              - text: Checkout with wallet
+  - generic [ref=e164]:
+    - button "Close product details" [ref=e165] [cursor=pointer]:
+      - img [ref=e166]
+    - generic "Alienware AW2723DF Gaming Monitor - 25-inch photos" [ref=e169]:
+      - img "Alienware AW2723DF Gaming Monitor - 25-inch photo 1" [ref=e170]
+      - img "Alienware AW2723DF Gaming Monitor - 25-inch photo 2" [ref=e171]
+    - generic [ref=e172]:
+      - generic [ref=e173]: Monitors
+      - heading "Alienware AW2723DF Gaming Monitor - 25-inch" [level=2] [ref=e174]
+      - paragraph [ref=e175]:
+        - img [ref=e176]
+        - text: 5 premium rating
+      - paragraph [ref=e178]: Alienware gaming monitor with fast IPS panel and high-refresh visuals. Designed with a floating glass aesthetic, soft reflections, and a wallet-ready checkout flow.
+      - generic [ref=e179]:
+        - generic [ref=e180]:
+          - generic [ref=e181]: Price
+          - strong [ref=e182]: 0.156 ETH
+        - generic [ref=e183]:
+          - generic [ref=e184]: USD estimate
+          - strong [ref=e185]: $499
+        - generic [ref=e186]:
+          - generic [ref=e187]: Wallet checkout
+          - strong [ref=e188]: Ready
+      - generic [ref=e189]:
+        - button "Add to cart" [ref=e190] [cursor=pointer]:
+          - text: Add to cart
+          - img [ref=e191]
+        - button "Save item" [ref=e193] [cursor=pointer]:
+          - img [ref=e194]
+          - text: Save item

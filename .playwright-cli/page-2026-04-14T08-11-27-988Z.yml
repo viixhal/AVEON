@@ -1,0 +1,172 @@
+- generic [ref=e3]:
+  - generic [ref=e4]:
+    - generic [ref=e6]: MetaMask unavailable
+    - generic [ref=e7]: Cart 0
+  - generic [ref=e8]:
+    - banner [ref=e9]:
+      - generic [ref=e10]:
+        - img [ref=e12]
+        - generic [ref=e14]:
+          - strong [ref=e15]: AVEON
+          - generic [ref=e16]: Blockchain e-commerce
+      - generic [ref=e17]:
+        - generic [ref=e18]:
+          - img [ref=e19]
+          - generic [ref=e22]: Search products
+          - searchbox "Search products" [ref=e23]
+        - button "Light" [ref=e24] [cursor=pointer]:
+          - img [ref=e25]
+          - text: Light
+        - button "Connect MetaMask" [ref=e31] [cursor=pointer]:
+          - img [ref=e32]
+          - text: Connect MetaMask
+    - main [ref=e36]:
+      - generic [ref=e37]:
+        - generic [ref=e38]:
+          - generic [ref=e39]:
+            - generic [ref=e40]: Blockchain e-commerce
+            - heading "Shop in AVEON" [level=1] [ref=e41]
+            - paragraph [ref=e42]: Premium product browsing, animated panels, dark and light modes, and wallet-ready checkout.
+            - generic [ref=e43]:
+              - button "Buy featured item" [ref=e44] [cursor=pointer]:
+                - text: Buy featured item
+                - img [ref=e45]
+              - button "Connect wallet" [ref=e47] [cursor=pointer]
+          - button "Apple iPhone 17 Pro 256 GB Apple iPhone 17 Pro 256 GB TRASH PHONE. DO NOT BUY. Apple iPhone 17 Pro with 256 GB storage. 0.344 ETH ~$1101" [ref=e161] [cursor=pointer]:
+            - img "Apple iPhone 17 Pro 256 GB" [ref=e162]
+            - generic [ref=e50]:
+              - generic [ref=e51]:
+                - strong [ref=e52]: Apple iPhone 17 Pro 256 GB
+                - generic [ref=e53]: TRASH PHONE. DO NOT BUY. Apple iPhone 17 Pro with 256 GB storage.
+              - generic [ref=e54]:
+                - strong [ref=e55]: 0.344 ETH
+                - generic [ref=e56]: ~$1101
+        - generic [ref=e57]:
+          - generic [ref=e58]:
+            - generic [ref=e59]:
+              - heading "Featured products" [level=2] [ref=e60]
+              - paragraph [ref=e61]: Filter the shelf and tap any item for details.
+            - generic [ref=e62]:
+              - img [ref=e63]
+              - text: 3 items
+          - generic [ref=e64]:
+            - button "All" [ref=e65] [cursor=pointer]
+            - button "Headphones" [ref=e66] [cursor=pointer]
+            - button "Phones" [ref=e67] [cursor=pointer]
+            - button "Monitors" [ref=e68] [cursor=pointer]
+          - generic [ref=e69]:
+            - article [ref=e70]:
+              - generic [ref=e71]:
+                - img "1000X series | WH-1000XM6 Wireless Noise Cancelling Headphones" [ref=e72]
+                - generic [ref=e73]: Headphones
+                - button "Add to favorites" [ref=e74] [cursor=pointer]:
+                  - img [ref=e75]
+              - generic [ref=e77]:
+                - generic [ref=e78]:
+                  - strong [ref=e79]: 1000X series | WH-1000XM6 Wireless Noise Cancelling Headphones
+                  - generic [ref=e80]: Wireless noise cancelling headphones from the 1000X series.
+                - generic [ref=e81]:
+                  - generic [ref=e82]:
+                    - img [ref=e83]
+                    - text: "5"
+                  - strong [ref=e85]: 0.125 ETH
+                - generic [ref=e86]:
+                  - button "View" [ref=e87] [cursor=pointer]
+                  - button "Add" [ref=e88] [cursor=pointer]
+            - article [ref=e89]:
+              - generic [ref=e90]:
+                - img "Apple iPhone 17 Pro 256 GB" [ref=e91]
+                - generic [ref=e92]: Phones
+                - button "Add to favorites" [ref=e93] [cursor=pointer]:
+                  - img [ref=e94]
+              - generic [ref=e96]:
+                - generic [ref=e97]:
+                  - strong [ref=e98]: Apple iPhone 17 Pro 256 GB
+                  - generic [ref=e99]: TRASH PHONE. DO NOT BUY. Apple iPhone 17 Pro with 256 GB storage.
+                - generic [ref=e100]:
+                  - generic [ref=e101]:
+                    - img [ref=e102]
+                    - text: "5"
+                  - strong [ref=e104]: 0.344 ETH
+                - generic [ref=e105]:
+                  - button "View" [active] [ref=e106] [cursor=pointer]
+                  - button "Add" [ref=e107] [cursor=pointer]
+            - article [ref=e108]:
+              - generic [ref=e109]:
+                - img "Alienware AW2723DF Gaming Monitor - 25-inch" [ref=e110]
+                - generic [ref=e111]: Monitors
+                - button "Add to favorites" [ref=e112] [cursor=pointer]:
+                  - img [ref=e113]
+              - generic [ref=e115]:
+                - generic [ref=e116]:
+                  - strong [ref=e117]: Alienware AW2723DF Gaming Monitor - 25-inch
+                  - generic [ref=e118]: Alienware gaming monitor with fast IPS panel and high-refresh visuals.
+                - generic [ref=e119]:
+                  - generic [ref=e120]:
+                    - img [ref=e121]
+                    - text: "5"
+                  - strong [ref=e123]: 0.156 ETH
+                - generic [ref=e124]:
+                  - button "View" [ref=e125] [cursor=pointer]
+                  - button "Add" [ref=e126] [cursor=pointer]
+      - complementary [ref=e127]:
+        - generic [ref=e128]:
+          - generic [ref=e129]:
+            - generic [ref=e130]:
+              - heading "Wallet" [level=2] [ref=e131]
+              - paragraph [ref=e132]: MetaMask status and checkout readiness
+            - generic [ref=e133]: MetaMask unavailable
+          - paragraph [ref=e134]: Open this app in a regular browser with MetaMask installed to connect.
+          - generic [ref=e135]: Connected address
+          - strong [ref=e136]: No wallet connected
+          - button "Connect now" [ref=e137] [cursor=pointer]:
+            - img [ref=e138]
+            - text: Connect now
+        - generic [ref=e142]:
+          - generic [ref=e143]:
+            - heading "Cart" [level=2] [ref=e144]:
+              - img [ref=e145]
+              - text: Cart
+            - generic [ref=e148]: 0 items
+          - paragraph [ref=e150]: Your cart is empty. Add a few liquid glass products.
+          - generic [ref=e151]:
+            - generic [ref=e152]:
+              - generic [ref=e153]: Subtotal
+              - strong [ref=e154]: 0.000 ETH
+            - generic [ref=e155]:
+              - generic [ref=e156]: USD estimate
+              - strong [ref=e157]: $0
+            - button "Checkout with wallet" [ref=e158] [cursor=pointer]:
+              - img [ref=e159]
+              - text: Checkout with wallet
+  - generic [ref=e164]:
+    - button "Close product details" [ref=e165] [cursor=pointer]:
+      - img [ref=e166]
+    - generic "Apple iPhone 17 Pro 256 GB photos" [ref=e169]:
+      - img "Apple iPhone 17 Pro 256 GB photo 1" [ref=e170]
+      - img "Apple iPhone 17 Pro 256 GB photo 2" [ref=e171]
+      - img "Apple iPhone 17 Pro 256 GB photo 3" [ref=e172]
+    - generic [ref=e173]:
+      - generic [ref=e174]: Phones
+      - heading "Apple iPhone 17 Pro 256 GB" [level=2] [ref=e175]
+      - paragraph [ref=e176]:
+        - img [ref=e177]
+        - text: 5 premium rating
+      - paragraph [ref=e179]: TRASH PHONE. DO NOT BUY. Apple iPhone 17 Pro with 256 GB storage. Designed with a floating glass aesthetic, soft reflections, and a wallet-ready checkout flow.
+      - generic [ref=e180]:
+        - generic [ref=e181]:
+          - generic [ref=e182]: Price
+          - strong [ref=e183]: 0.344 ETH
+        - generic [ref=e184]:
+          - generic [ref=e185]: USD estimate
+          - strong [ref=e186]: $1101
+        - generic [ref=e187]:
+          - generic [ref=e188]: Wallet checkout
+          - strong [ref=e189]: Ready
+      - generic [ref=e190]:
+        - button "Add to cart" [ref=e191] [cursor=pointer]:
+          - text: Add to cart
+          - img [ref=e192]
+        - button "Save item" [ref=e194] [cursor=pointer]:
+          - img [ref=e195]
+          - text: Save item

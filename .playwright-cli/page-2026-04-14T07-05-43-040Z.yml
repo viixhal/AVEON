@@ -1,0 +1,137 @@
+- generic [ref=e3]:
+  - generic [ref=e4]:
+    - generic [ref=e6]: MetaMask unavailable
+    - generic [ref=e7]: Cart 0
+  - generic [ref=e8]:
+    - banner [ref=e9]:
+      - generic [ref=e10]:
+        - img [ref=e12]
+        - generic [ref=e14]:
+          - strong [ref=e15]: Liquid Glass Store
+          - generic [ref=e16]: Apple-inspired commerce with MetaMask checkout
+      - generic [ref=e17]:
+        - generic [ref=e18]:
+          - img [ref=e19]
+          - generic [ref=e22]: Search products
+          - searchbox "Search products" [ref=e23]
+        - button "Light" [ref=e24] [cursor=pointer]:
+          - img [ref=e25]
+          - text: Light
+        - button "Connect MetaMask" [ref=e31] [cursor=pointer]:
+          - img [ref=e32]
+          - text: Connect MetaMask
+    - main [ref=e36]:
+      - generic [ref=e37]:
+        - generic [ref=e38]:
+          - generic [ref=e39]:
+            - generic [ref=e40]: New UI Concept
+            - heading "Shop in a fluid glass world." [level=1] [ref=e41]
+            - paragraph [ref=e42]: Premium product browsing, animated panels, dark and light modes, and wallet-ready checkout.
+            - generic [ref=e43]:
+              - button "Buy featured item" [ref=e44] [cursor=pointer]:
+                - text: Buy featured item
+                - img [ref=e45]
+              - button "Connect wallet" [ref=e47] [cursor=pointer]
+          - button "1000X series | WH-1000XM6 Wireless Noise Cancelling Headphones 1000X series | WH-1000XM6 Wireless Noise Cancelling Headphones Wireless noise cancelling headphones from the 1000X series. 0.125 ETH ~$400" [active] [ref=e48] [cursor=pointer]:
+            - img "1000X series | WH-1000XM6 Wireless Noise Cancelling Headphones" [ref=e49]
+            - generic [ref=e50]:
+              - generic [ref=e51]:
+                - strong [ref=e52]: 1000X series | WH-1000XM6 Wireless Noise Cancelling Headphones
+                - generic [ref=e53]: Wireless noise cancelling headphones from the 1000X series.
+              - generic [ref=e54]:
+                - strong [ref=e55]: 0.125 ETH
+                - generic [ref=e56]: ~$400
+        - generic [ref=e57]:
+          - generic [ref=e58]:
+            - generic [ref=e59]:
+              - heading "Featured products" [level=2] [ref=e60]
+              - paragraph [ref=e61]: Filter the shelf and tap any item for details.
+            - generic [ref=e62]:
+              - img [ref=e63]
+              - text: 1 items
+          - generic [ref=e64]:
+            - button "All" [ref=e65] [cursor=pointer]
+            - button "Headphones" [ref=e66] [cursor=pointer]
+          - article [ref=e68]:
+            - generic [ref=e69]:
+              - img "1000X series | WH-1000XM6 Wireless Noise Cancelling Headphones" [ref=e70]
+              - generic [ref=e71]: Headphones
+              - button "Add to favorites" [ref=e72] [cursor=pointer]:
+                - img [ref=e73]
+            - generic [ref=e75]:
+              - generic [ref=e76]:
+                - strong [ref=e77]: 1000X series | WH-1000XM6 Wireless Noise Cancelling Headphones
+                - generic [ref=e78]: Wireless noise cancelling headphones from the 1000X series.
+              - generic [ref=e79]:
+                - generic [ref=e80]:
+                  - img [ref=e81]
+                  - text: "5"
+                - strong [ref=e83]: 0.125 ETH
+              - generic [ref=e84]:
+                - button "View" [ref=e85] [cursor=pointer]
+                - button "Add" [ref=e86] [cursor=pointer]
+      - complementary [ref=e87]:
+        - generic [ref=e88]:
+          - generic [ref=e89]:
+            - generic [ref=e90]:
+              - heading "Wallet" [level=2] [ref=e91]
+              - paragraph [ref=e92]: MetaMask status and checkout readiness
+            - generic [ref=e93]: MetaMask unavailable
+          - paragraph [ref=e94]: Open this app in a regular browser with MetaMask installed to connect.
+          - generic [ref=e95]: Connected address
+          - strong [ref=e96]: No wallet connected
+          - button "Connect now" [ref=e97] [cursor=pointer]:
+            - img [ref=e98]
+            - text: Connect now
+        - generic [ref=e102]:
+          - generic [ref=e103]:
+            - heading "Cart" [level=2] [ref=e104]:
+              - img [ref=e105]
+              - text: Cart
+            - generic [ref=e108]: 0 items
+          - paragraph [ref=e110]: Your cart is empty. Add a few liquid glass products.
+          - generic [ref=e111]:
+            - generic [ref=e112]:
+              - generic [ref=e113]: Subtotal
+              - strong [ref=e114]: 0.000 ETH
+            - generic [ref=e115]:
+              - generic [ref=e116]: USD estimate
+              - strong [ref=e117]: $0
+            - button "Checkout with wallet" [ref=e118] [cursor=pointer]:
+              - img [ref=e119]
+              - text: Checkout with wallet
+  - generic [ref=e122]:
+    - button "Close product details" [ref=e123] [cursor=pointer]:
+      - img [ref=e124]
+    - generic "1000X series | WH-1000XM6 Wireless Noise Cancelling Headphones photos" [ref=e127]:
+      - img "1000X series | WH-1000XM6 Wireless Noise Cancelling Headphones photo 1" [ref=e128]
+      - img "1000X series | WH-1000XM6 Wireless Noise Cancelling Headphones photo 2" [ref=e129]
+      - img "1000X series | WH-1000XM6 Wireless Noise Cancelling Headphones photo 3" [ref=e130]
+      - img "1000X series | WH-1000XM6 Wireless Noise Cancelling Headphones photo 4" [ref=e131]
+      - img "1000X series | WH-1000XM6 Wireless Noise Cancelling Headphones photo 5" [ref=e132]
+      - img "1000X series | WH-1000XM6 Wireless Noise Cancelling Headphones photo 6" [ref=e133]
+      - img "1000X series | WH-1000XM6 Wireless Noise Cancelling Headphones photo 7" [ref=e134]
+    - generic [ref=e135]:
+      - generic [ref=e136]: Headphones
+      - heading "1000X series | WH-1000XM6 Wireless Noise Cancelling Headphones" [level=2] [ref=e137]
+      - paragraph [ref=e138]:
+        - img [ref=e139]
+        - text: 5 premium rating
+      - paragraph [ref=e141]: Wireless noise cancelling headphones from the 1000X series. Designed with a floating glass aesthetic, soft reflections, and a wallet-ready checkout flow.
+      - generic [ref=e142]:
+        - generic [ref=e143]:
+          - generic [ref=e144]: Price
+          - strong [ref=e145]: 0.125 ETH
+        - generic [ref=e146]:
+          - generic [ref=e147]: USD estimate
+          - strong [ref=e148]: $400
+        - generic [ref=e149]:
+          - generic [ref=e150]: Wallet checkout
+          - strong [ref=e151]: Ready
+      - generic [ref=e152]:
+        - button "Add to cart" [ref=e153] [cursor=pointer]:
+          - text: Add to cart
+          - img [ref=e154]
+        - button "Save item" [ref=e156] [cursor=pointer]:
+          - img [ref=e157]
+          - text: Save item

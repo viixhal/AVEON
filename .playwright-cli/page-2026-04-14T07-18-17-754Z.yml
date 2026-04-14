@@ -1,0 +1,134 @@
+- generic [ref=e3]:
+  - generic [ref=e4]:
+    - generic [ref=e6]: MetaMask unavailable
+    - generic [ref=e7]: Cart 0
+  - generic [ref=e8]:
+    - banner [ref=e9]:
+      - generic [ref=e10]:
+        - img [ref=e12]
+        - generic [ref=e14]:
+          - strong [ref=e15]: Liquid Glass Store
+          - generic [ref=e16]: Apple-inspired commerce with MetaMask checkout
+      - generic [ref=e17]:
+        - generic [ref=e18]:
+          - img [ref=e19]
+          - generic [ref=e22]: Search products
+          - searchbox "Search products" [ref=e23]: iPhone 17 Pro
+        - button "Light" [ref=e24] [cursor=pointer]:
+          - img [ref=e25]
+          - text: Light
+        - button "Connect MetaMask" [ref=e31] [cursor=pointer]:
+          - img [ref=e32]
+          - text: Connect MetaMask
+    - main [ref=e36]:
+      - generic [ref=e37]:
+        - generic [ref=e38]:
+          - generic [ref=e39]:
+            - generic [ref=e40]: New UI Concept
+            - heading "Shop in a fluid glass world." [level=1] [ref=e41]
+            - paragraph [ref=e42]: Premium product browsing, animated panels, dark and light modes, and wallet-ready checkout.
+            - generic [ref=e43]:
+              - button "Buy featured item" [ref=e44] [cursor=pointer]:
+                - text: Buy featured item
+                - img [ref=e45]
+              - button "Connect wallet" [ref=e47] [cursor=pointer]
+          - 'button "Apple iPhone 17 Pro 256 GB: 15.93 cm (6.3″) Display with Promotion up to 120Hz, A19 Pro Chip, Breakthrough Battery Life, Pro Fusion Camera System with Center Stage Front Camera; Deep Blue Apple iPhone 17 Pro 256 GB: 15.93 cm (6.3″) Display with Promotion up to 120Hz, A19 Pro Chip, Breakthrough Battery Life, Pro Fusion Camera System with Center Stage Front Camera; Deep Blue Deep Blue iPhone 17 Pro with A19 Pro, Pro Fusion cameras, and Center Stage front camera. 0.344 ETH ~$1101" [ref=e141] [cursor=pointer]':
+            - 'img "Apple iPhone 17 Pro 256 GB: 15.93 cm (6.3″) Display with Promotion up to 120Hz, A19 Pro Chip, Breakthrough Battery Life, Pro Fusion Camera System with Center Stage Front Camera; Deep Blue" [ref=e142]'
+            - generic [ref=e50]:
+              - generic [ref=e51]:
+                - strong [ref=e52]: "Apple iPhone 17 Pro 256 GB: 15.93 cm (6.3″) Display with Promotion up to 120Hz, A19 Pro Chip, Breakthrough Battery Life, Pro Fusion Camera System with Center Stage Front Camera; Deep Blue"
+                - generic [ref=e53]: Deep Blue iPhone 17 Pro with A19 Pro, Pro Fusion cameras, and Center Stage front camera.
+              - generic [ref=e54]:
+                - strong [ref=e55]: 0.344 ETH
+                - generic [ref=e56]: ~$1101
+        - generic [ref=e57]:
+          - generic [ref=e58]:
+            - generic [ref=e59]:
+              - heading "Featured products" [level=2] [ref=e60]
+              - paragraph [ref=e61]: Filter the shelf and tap any item for details.
+            - generic [ref=e62]:
+              - img [ref=e63]
+              - text: 1 items
+          - generic [ref=e64]:
+            - button "All" [ref=e65] [cursor=pointer]
+            - button "Headphones" [ref=e66] [cursor=pointer]
+            - button "Phones" [ref=e67] [cursor=pointer]
+          - article [ref=e88]:
+            - generic [ref=e89]:
+              - 'img "Apple iPhone 17 Pro 256 GB: 15.93 cm (6.3″) Display with Promotion up to 120Hz, A19 Pro Chip, Breakthrough Battery Life, Pro Fusion Camera System with Center Stage Front Camera; Deep Blue" [ref=e90]'
+              - generic [ref=e91]: Phones
+              - button "Add to favorites" [ref=e92] [cursor=pointer]:
+                - img [ref=e93]
+            - generic [ref=e95]:
+              - generic [ref=e96]:
+                - strong [ref=e97]: "Apple iPhone 17 Pro 256 GB: 15.93 cm (6.3″) Display with Promotion up to 120Hz, A19 Pro Chip, Breakthrough Battery Life, Pro Fusion Camera System with Center Stage Front Camera; Deep Blue"
+                - generic [ref=e98]: Deep Blue iPhone 17 Pro with A19 Pro, Pro Fusion cameras, and Center Stage front camera.
+              - generic [ref=e99]:
+                - generic [ref=e100]:
+                  - img [ref=e101]
+                  - text: "5"
+                - strong [ref=e103]: 0.344 ETH
+              - generic [ref=e104]:
+                - button "View" [active] [ref=e105] [cursor=pointer]
+                - button "Add" [ref=e106] [cursor=pointer]
+      - complementary [ref=e107]:
+        - generic [ref=e108]:
+          - generic [ref=e109]:
+            - generic [ref=e110]:
+              - heading "Wallet" [level=2] [ref=e111]
+              - paragraph [ref=e112]: MetaMask status and checkout readiness
+            - generic [ref=e113]: MetaMask unavailable
+          - paragraph [ref=e114]: Open this app in a regular browser with MetaMask installed to connect.
+          - generic [ref=e115]: Connected address
+          - strong [ref=e116]: No wallet connected
+          - button "Connect now" [ref=e117] [cursor=pointer]:
+            - img [ref=e118]
+            - text: Connect now
+        - generic [ref=e122]:
+          - generic [ref=e123]:
+            - heading "Cart" [level=2] [ref=e124]:
+              - img [ref=e125]
+              - text: Cart
+            - generic [ref=e128]: 0 items
+          - paragraph [ref=e130]: Your cart is empty. Add a few liquid glass products.
+          - generic [ref=e131]:
+            - generic [ref=e132]:
+              - generic [ref=e133]: Subtotal
+              - strong [ref=e134]: 0.000 ETH
+            - generic [ref=e135]:
+              - generic [ref=e136]: USD estimate
+              - strong [ref=e137]: $0
+            - button "Checkout with wallet" [ref=e138] [cursor=pointer]:
+              - img [ref=e139]
+              - text: Checkout with wallet
+  - generic [ref=e144]:
+    - button "Close product details" [ref=e145] [cursor=pointer]:
+      - img [ref=e146]
+    - 'generic "Apple iPhone 17 Pro 256 GB: 15.93 cm (6.3″) Display with Promotion up to 120Hz, A19 Pro Chip, Breakthrough Battery Life, Pro Fusion Camera System with Center Stage Front Camera; Deep Blue photos" [ref=e149]':
+      - 'img "Apple iPhone 17 Pro 256 GB: 15.93 cm (6.3″) Display with Promotion up to 120Hz, A19 Pro Chip, Breakthrough Battery Life, Pro Fusion Camera System with Center Stage Front Camera; Deep Blue photo 1" [ref=e150]'
+      - 'img "Apple iPhone 17 Pro 256 GB: 15.93 cm (6.3″) Display with Promotion up to 120Hz, A19 Pro Chip, Breakthrough Battery Life, Pro Fusion Camera System with Center Stage Front Camera; Deep Blue photo 2" [ref=e151]'
+      - 'img "Apple iPhone 17 Pro 256 GB: 15.93 cm (6.3″) Display with Promotion up to 120Hz, A19 Pro Chip, Breakthrough Battery Life, Pro Fusion Camera System with Center Stage Front Camera; Deep Blue photo 3" [ref=e152]'
+    - generic [ref=e153]:
+      - generic [ref=e154]: Phones
+      - 'heading "Apple iPhone 17 Pro 256 GB: 15.93 cm (6.3″) Display with Promotion up to 120Hz, A19 Pro Chip, Breakthrough Battery Life, Pro Fusion Camera System with Center Stage Front Camera; Deep Blue" [level=2] [ref=e155]'
+      - paragraph [ref=e156]:
+        - img [ref=e157]
+        - text: 5 premium rating
+      - paragraph [ref=e159]: Deep Blue iPhone 17 Pro with A19 Pro, Pro Fusion cameras, and Center Stage front camera. Designed with a floating glass aesthetic, soft reflections, and a wallet-ready checkout flow.
+      - generic [ref=e160]:
+        - generic [ref=e161]:
+          - generic [ref=e162]: Price
+          - strong [ref=e163]: 0.344 ETH
+        - generic [ref=e164]:
+          - generic [ref=e165]: USD estimate
+          - strong [ref=e166]: $1101
+        - generic [ref=e167]:
+          - generic [ref=e168]: Wallet checkout
+          - strong [ref=e169]: Ready
+      - generic [ref=e170]:
+        - button "Add to cart" [ref=e171] [cursor=pointer]:
+          - text: Add to cart
+          - img [ref=e172]
+        - button "Save item" [ref=e174] [cursor=pointer]:
+          - img [ref=e175]
+          - text: Save item

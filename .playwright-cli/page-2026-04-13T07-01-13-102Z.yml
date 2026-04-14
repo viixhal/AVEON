@@ -1,0 +1,277 @@
+- generic [ref=e3]:
+  - generic [ref=e4]:
+    - generic [ref=e6]: MetaMask unavailable
+    - generic [ref=e7]: Cart 1
+  - generic [ref=e8]:
+    - banner [ref=e9]:
+      - generic [ref=e10]:
+        - img [ref=e12]
+        - generic [ref=e14]:
+          - strong [ref=e15]: Liquid Glass Store
+          - generic [ref=e16]: Apple-inspired commerce with MetaMask checkout
+      - generic [ref=e17]:
+        - generic [ref=e18]:
+          - img [ref=e19]
+          - generic [ref=e22]: Search products
+          - searchbox "Search products" [ref=e23]
+        - button "Light" [ref=e24] [cursor=pointer]:
+          - img [ref=e25]
+          - text: Light
+        - button "Connect MetaMask" [ref=e31] [cursor=pointer]:
+          - img [ref=e32]
+          - text: Connect MetaMask
+    - main [ref=e36]:
+      - generic [ref=e37]:
+        - generic [ref=e38]:
+          - generic [ref=e39]:
+            - generic [ref=e40]: New UI Concept
+            - heading "Shop in a fluid glass world." [level=1] [ref=e41]
+            - paragraph [ref=e42]: Premium product browsing, animated panels, dark and light modes, and wallet-ready checkout.
+            - generic [ref=e43]:
+              - button "Buy featured item" [ref=e44] [cursor=pointer]:
+                - text: Buy featured item
+                - img [ref=e45]
+              - button "Connect wallet" [ref=e47] [cursor=pointer]
+          - button "Glass AirPods Case Glass AirPods Case Polished translucent case with soft magnetic finish. 0.018 ETH ~$58" [ref=e48] [cursor=pointer]:
+            - img "Glass AirPods Case" [ref=e49]
+            - generic [ref=e50]:
+              - generic [ref=e51]:
+                - strong [ref=e52]: Glass AirPods Case
+                - generic [ref=e53]: Polished translucent case with soft magnetic finish.
+              - generic [ref=e54]:
+                - strong [ref=e55]: 0.018 ETH
+                - generic [ref=e56]: ~$58
+        - generic [ref=e57]:
+          - generic [ref=e58]:
+            - generic [ref=e59]:
+              - heading "Featured products" [level=2] [ref=e60]
+              - paragraph [ref=e61]: Filter the shelf and tap any item for details.
+            - generic [ref=e62]:
+              - img [ref=e63]
+              - text: 10 items
+          - generic [ref=e64]:
+            - button "All" [ref=e65] [cursor=pointer]
+            - button "Accessories" [ref=e66] [cursor=pointer]
+            - button "Wearables" [ref=e67] [cursor=pointer]
+            - button "Desk" [ref=e68] [cursor=pointer]
+            - button "Tech" [ref=e69] [cursor=pointer]
+          - generic [ref=e70]:
+            - article [ref=e71]:
+              - generic [ref=e72]:
+                - img "Glass AirPods Case" [ref=e73]
+                - generic [ref=e74]: Accessories
+                - button "Add to favorites" [ref=e75] [cursor=pointer]:
+                  - img [ref=e76]
+              - generic [ref=e78]:
+                - generic [ref=e79]:
+                  - strong [ref=e80]: Glass AirPods Case
+                  - generic [ref=e81]: Polished translucent case with soft magnetic finish.
+                - generic [ref=e82]:
+                  - generic [ref=e83]:
+                    - img [ref=e84]
+                    - text: "4.8"
+                  - strong [ref=e86]: 0.018 ETH
+                - generic [ref=e87]:
+                  - button "View" [ref=e88] [cursor=pointer]
+                  - button "Add" [ref=e89] [cursor=pointer]
+            - article [ref=e90]:
+              - generic [ref=e91]:
+                - img "Liquid Watch Strap" [ref=e92]
+                - generic [ref=e93]: Wearables
+                - button "Add to favorites" [ref=e94] [cursor=pointer]:
+                  - img [ref=e95]
+              - generic [ref=e97]:
+                - generic [ref=e98]:
+                  - strong [ref=e99]: Liquid Watch Strap
+                  - generic [ref=e100]: Minimal strap concept with floating metal edges.
+                - generic [ref=e101]:
+                  - generic [ref=e102]:
+                    - img [ref=e103]
+                    - text: "4.9"
+                  - strong [ref=e105]: 0.031 ETH
+                - generic [ref=e106]:
+                  - button "View" [ref=e107] [cursor=pointer]
+                  - button "Add" [ref=e108] [cursor=pointer]
+            - article [ref=e109]:
+              - generic [ref=e110]:
+                - img "Crystal Phone Stand" [ref=e111]
+                - generic [ref=e112]: Desk
+                - button "Add to favorites" [ref=e113] [cursor=pointer]:
+                  - img [ref=e114]
+              - generic [ref=e116]:
+                - generic [ref=e117]:
+                  - strong [ref=e118]: Crystal Phone Stand
+                  - generic [ref=e119]: Desk-ready stand with a clean Apple-like silhouette.
+                - generic [ref=e120]:
+                  - generic [ref=e121]:
+                    - img [ref=e122]
+                    - text: "4.7"
+                  - strong [ref=e124]: 0.012 ETH
+                - generic [ref=e125]:
+                  - button "View" [ref=e126] [cursor=pointer]
+                  - button "Add" [ref=e127] [cursor=pointer]
+            - article [ref=e128]:
+              - generic [ref=e129]:
+                - img "Nebula Keyboard" [ref=e130]
+                - generic [ref=e131]: Tech
+                - button "Add to favorites" [ref=e132] [cursor=pointer]:
+                  - img [ref=e133]
+              - generic [ref=e135]:
+                - generic [ref=e136]:
+                  - strong [ref=e137]: Nebula Keyboard
+                  - generic [ref=e138]: Low-profile keyboard with premium frosted finish.
+                - generic [ref=e139]:
+                  - generic [ref=e140]:
+                    - img [ref=e141]
+                    - text: "5"
+                  - strong [ref=e143]: 0.044 ETH
+                - generic [ref=e144]:
+                  - button "View" [ref=e145] [cursor=pointer]
+                  - button "Add" [ref=e146] [cursor=pointer]
+            - article [ref=e147]:
+              - generic [ref=e148]:
+                - img "Frosted MacBook Sleeve" [ref=e149]
+                - generic [ref=e150]: Accessories
+                - button "Add to favorites" [ref=e151] [cursor=pointer]:
+                  - img [ref=e152]
+              - generic [ref=e154]:
+                - generic [ref=e155]:
+                  - strong [ref=e156]: Frosted MacBook Sleeve
+                  - generic [ref=e157]: Soft matte sleeve with a crystal edge design.
+                - generic [ref=e158]:
+                  - generic [ref=e159]:
+                    - img [ref=e160]
+                    - text: "4.6"
+                  - strong [ref=e162]: 0.026 ETH
+                - generic [ref=e163]:
+                  - button "View" [ref=e164] [cursor=pointer]
+                  - button "Add" [ref=e165] [cursor=pointer]
+            - article [ref=e166]:
+              - generic [ref=e167]:
+                - img "Glass Wireless Charger" [ref=e168]
+                - generic [ref=e169]: Tech
+                - button "Add to favorites" [ref=e170] [cursor=pointer]:
+                  - img [ref=e171]
+              - generic [ref=e173]:
+                - generic [ref=e174]:
+                  - strong [ref=e175]: Glass Wireless Charger
+                  - generic [ref=e176]: Minimal wireless charger with glowing edge ring.
+                - generic [ref=e177]:
+                  - generic [ref=e178]:
+                    - img [ref=e179]
+                    - text: "4.8"
+                  - strong [ref=e181]: 0.021 ETH
+                - generic [ref=e182]:
+                  - button "View" [ref=e183] [cursor=pointer]
+                  - button "Add" [ref=e184] [cursor=pointer]
+            - article [ref=e185]:
+              - generic [ref=e186]:
+                - img "Liquid Glass Mouse" [ref=e187]
+                - generic [ref=e188]: Tech
+                - button "Add to favorites" [ref=e189] [cursor=pointer]:
+                  - img [ref=e190]
+              - generic [ref=e192]:
+                - generic [ref=e193]:
+                  - strong [ref=e194]: Liquid Glass Mouse
+                  - generic [ref=e195]: Ergonomic mouse with transparent shell.
+                - generic [ref=e196]:
+                  - generic [ref=e197]:
+                    - img [ref=e198]
+                    - text: "4.7"
+                  - strong [ref=e200]: 0.029 ETH
+                - generic [ref=e201]:
+                  - button "View" [ref=e202] [cursor=pointer]
+                  - button "Add" [ref=e203] [cursor=pointer]
+            - article [ref=e204]:
+              - generic [ref=e205]:
+                - img "Crystal Desk Lamp" [ref=e206]
+                - generic [ref=e207]: Desk
+                - button "Add to favorites" [ref=e208] [cursor=pointer]:
+                  - img [ref=e209]
+              - generic [ref=e211]:
+                - generic [ref=e212]:
+                  - strong [ref=e213]: Crystal Desk Lamp
+                  - generic [ref=e214]: Ambient desk lamp with soft glow diffusion.
+                - generic [ref=e215]:
+                  - generic [ref=e216]:
+                    - img [ref=e217]
+                    - text: "4.9"
+                  - strong [ref=e219]: 0.034 ETH
+                - generic [ref=e220]:
+                  - button "View" [ref=e221] [cursor=pointer]
+                  - button "Add" [ref=e222] [cursor=pointer]
+            - article [ref=e223]:
+              - generic [ref=e224]:
+                - img "Glass UI Tablet Stand" [ref=e225]
+                - generic [ref=e226]: Desk
+                - button "Add to favorites" [ref=e227] [cursor=pointer]:
+                  - img [ref=e228]
+              - generic [ref=e230]:
+                - generic [ref=e231]:
+                  - strong [ref=e232]: Glass UI Tablet Stand
+                  - generic [ref=e233]: Adjustable stand with sleek glass finish.
+                - generic [ref=e234]:
+                  - generic [ref=e235]:
+                    - img [ref=e236]
+                    - text: "4.5"
+                  - strong [ref=e238]: 0.019 ETH
+                - generic [ref=e239]:
+                  - button "View" [ref=e240] [cursor=pointer]
+                  - button "Add" [ref=e241] [cursor=pointer]
+            - article [ref=e242]:
+              - generic [ref=e243]:
+                - img "Transparent Power Bank" [ref=e244]
+                - generic [ref=e245]: Tech
+                - button "Add to favorites" [ref=e246] [cursor=pointer]:
+                  - img [ref=e247]
+              - generic [ref=e249]:
+                - generic [ref=e250]:
+                  - strong [ref=e251]: Transparent Power Bank
+                  - generic [ref=e252]: See-through battery pack with premium design.
+                - generic [ref=e253]:
+                  - generic [ref=e254]:
+                    - img [ref=e255]
+                    - text: "4.6"
+                  - strong [ref=e257]: 0.023 ETH
+                - generic [ref=e258]:
+                  - button "View" [ref=e259] [cursor=pointer]
+                  - button "Add" [ref=e260] [cursor=pointer]
+      - complementary [ref=e261]:
+        - generic [ref=e262]:
+          - generic [ref=e263]:
+            - generic [ref=e264]:
+              - heading "Wallet" [level=2] [ref=e265]
+              - paragraph [ref=e266]: MetaMask status and checkout readiness
+            - generic [ref=e267]: MetaMask unavailable
+          - paragraph [ref=e268]: Open this app in a regular browser with MetaMask installed to connect.
+          - generic [ref=e269]: Connected address
+          - strong [ref=e270]: No wallet connected
+          - button "Connect now" [ref=e271] [cursor=pointer]:
+            - img [ref=e272]
+            - text: Connect now
+        - generic [ref=e276]:
+          - generic [ref=e277]:
+            - heading "Cart" [level=2] [ref=e278]:
+              - img [ref=e279]
+              - text: Cart
+            - generic [ref=e282]: 1 items
+          - generic [ref=e295]:
+            - generic [ref=e296]:
+              - strong [ref=e297]: Glass AirPods Case
+              - generic [ref=e298]: 0.018 ETH each
+            - generic [ref=e299]:
+              - button [ref=e300] [cursor=pointer]:
+                - img [ref=e301]
+              - generic [ref=e302]: "1"
+              - button [ref=e303] [cursor=pointer]:
+                - img [ref=e304]
+          - generic [ref=e285]:
+            - generic [ref=e286]:
+              - generic [ref=e287]: Subtotal
+              - strong [ref=e288]: 0.018 ETH
+            - generic [ref=e289]:
+              - generic [ref=e290]: USD estimate
+              - strong [ref=e291]: $58
+            - button "Checkout with wallet" [ref=e292] [cursor=pointer]:
+              - img [ref=e293]
+              - text: Checkout with wallet
