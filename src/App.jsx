@@ -5,6 +5,7 @@ import {
   ArrowRight,
   Bell,
   Check,
+  ChevronDown,
   ChevronLeft,
   ChevronRight,
   Globe,
@@ -110,7 +111,8 @@ function SortDropdown({ value, onChange }) {
         type="button"
         aria-label="Sort products"
       >
-        {activeLabel}
+        <span>{activeLabel}</span>
+        <ChevronDown size={14} aria-hidden="true" style={{ transition: 'transform 0.2s cubic-bezier(0.34, 1.56, 0.64, 1)', transform: open ? 'rotate(180deg)' : 'rotate(0)' }} />
       </button>
       <AnimatePresence>
         {open && (
