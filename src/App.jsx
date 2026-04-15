@@ -81,6 +81,66 @@ function PremiumButton({ children, kind = "solid", className = "", ...props }) {
   );
 }
 
+/* ── Sort Dropdown ────────────────────────────────────────── */
+function SortDropdown({ value, onChange }) {
+  const [open, setOpen] = useState(false);
+  const ref = useRef(null);
+
+  useEffect(() => {
+    function clickOutside(e) {
+      if (ref.current && !ref.current.contains(e.target)) setOpen(false);
+    }
+    document.addEventListener("mousedown", clickOutside);
+    return () => document.removeEventListener("mousedown", clickOutside);
+  }, []);
+
+  const options = [
+    { id: "", label: "Recommended" },
+    { id: "price-asc", label: "Price: Low to High" },
+    { id: "price-desc", label: "Price: High to Low" },
+  ];
+
+  const activeLabel = options.find((o) => o.id === value)?.label || "Recommended";
+
+  return (
+    <div className="custom-dropdown" ref={ref}>
+      <button
+        className="sort-select"
+        onClick={() => setOpen(!open)}
+        type="button"
+        aria-label="Sort products"
+      >
+        {activeLabel}
+      </button>
+      <AnimatePresence>
+        {open && (
+          <motion.div
+            className="dropdown-menu glass-surface"
+            initial={{ opacity: 0, y: -8, scale: 0.95 }}
+            animate={{ opacity: 1, y: 0, scale: 1 }}
+            exit={{ opacity: 0, scale: 0.95 }}
+            transition={{ duration: 0.15 }}
+          >
+            {options.map((opt) => (
+              <button
+                key={opt.id}
+                className={`dropdown-item ${value === opt.id ? "active" : ""}`}
+                onClick={() => {
+                  onChange(opt.id);
+                  setOpen(false);
+                }}
+                type="button"
+              >
+                {opt.label}
+              </button>
+            ))}
+          </motion.div>
+        )}
+      </AnimatePresence>
+    </div>
+  );
+}
+
 /* ── Floating top dock ────────────────────────────────────── */
 function FloatingDock({ cartCount, walletAddress, walletStatus }) {
   return (
@@ -934,11 +994,7 @@ export default function App() {
                     {cat}
                   </button>
                 ))}
-                <select className="sort-select" value={sortBy} onChange={(e) => setSortBy(e.target.value)} aria-label="Sort products">
-                  <option value="">Recommended</option>
-                  <option value="price-asc">Price: Low to High</option>
-                  <option value="price-desc">Price: High to Low</option>
-                </select>
+                <SortDropdown value={sortBy} onChange={setSortBy} />
               </div>
 
               <motion.div className="product-grid" layout>
