@@ -45,31 +45,31 @@ body, button, input { font: inherit; letter-spacing: 0; }
 }
 
 .app.dark {
-  --page:          #0B0B0B;
-  --text:          #F5E6D3;
-  --muted:         #8A7F6A;
-  --surface:       #121212;
-  --surface-strong:#1C1C1C;
-  --border:        #2A2A2A;
-  --border-glow:   #B8965A;
-  --button:        #D4AF37;
-  --button-text:   #0B0B0B;
-  --glow-a:        rgba(212, 175, 55, 0.30);
-  --glow-b:        rgba(166, 124, 82, 0.22);
-  --card-bg:       #121212;
+  --page:          #000000;
+  --text:          #E3D5BB;
+  --muted:         rgba(227, 213, 187, 0.65);
+  --surface:       #2F2F2F;
+  --surface-strong:#3A3A3A;
+  --border:        #4A4A4A;
+  --border-glow:   #C8AA6F;
+  --button:        #C8AA6F;
+  --button-text:   #000000;
+  --glow-a:        rgba(200, 170, 111, 0.30);
+  --glow-b:        rgba(200, 170, 111, 0.22);
+  --card-bg:       #2F2F2F;
   --img-bg:        rgba(255, 255, 255, 0.04);
-  --tag-bg:        rgba(212, 175, 55, 0.18);
-  --tag-text:      #E6C79C;
+  --tag-bg:        rgba(200, 170, 111, 0.18);
+  --tag-text:      #E3D5BB;
 
-  --accent:        #D4AF37;
-  --accent-2:      #C9A96E;
-  --accent-3:      #A67C52;
+  --accent:        #C8AA6F;
+  --accent-2:      #B59A64;
+  --accent-3:      #9A8256;
 
   background:
-    radial-gradient(ellipse 60% 50% at 10%  5%,  rgba(212, 175, 55, 0.20), transparent),
-    radial-gradient(ellipse 50% 40% at 90% 10%,  rgba(201, 169, 110, 0.15), transparent),
-    radial-gradient(ellipse 40% 60% at 50% 90%,  rgba(166, 124, 82, 0.10),  transparent),
-    linear-gradient(165deg, #0B0B0B 0%, #121212 55%, #0B0B0B 100%);
+    radial-gradient(ellipse 60% 50% at 10%  5%,  rgba(200, 170, 111, 0.20), transparent),
+    radial-gradient(ellipse 50% 40% at 90% 10%,  rgba(200, 170, 111, 0.15), transparent),
+    radial-gradient(ellipse 40% 60% at 50% 90%,  rgba(200, 170, 111, 0.10),  transparent),
+    linear-gradient(165deg, #000000 0%, #1C1C1C 55%, #000000 100%);
 }
 
 .app.light {
