@@ -187,9 +187,20 @@ body, button, input { font: inherit; letter-spacing: 0; }
   width: 0.48rem;
   height: 0.48rem;
   border-radius: 50%;
+  background: #ef4444;
+  box-shadow: 0 0 6px #ef4444;
+  flex-shrink: 0;
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+.status-dot.connected {
   background: #22d47e;
   box-shadow: 0 0 6px #22d47e;
-  flex-shrink: 0;
+  animation: dotPulse 2s infinite;
+}
+@keyframes dotPulse {
+  0% { box-shadow: 0 0 0 0 rgba(34,212,126, 0.4); }
+  70% { box-shadow: 0 0 0 6px rgba(34,212,126, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(34,212,126, 0); }
 }
 
 /* ── Header ───────────────────────────────────────────────── */
@@ -222,10 +233,10 @@ body, button, input { font: inherit; letter-spacing: 0; }
 
 .brand strong {
   display: block;
-  font-size: 1.2rem;
-  font-family: "Outfit", sans-serif;
+  font-size: 1.5rem;
+  font-family: "Playfair Display", serif;
   font-weight: 800;
-  letter-spacing: -0.02em;
+  letter-spacing: 0;
   background: linear-gradient(135deg, var(--accent), var(--accent-2));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -397,7 +408,7 @@ body, button, input { font: inherit; letter-spacing: 0; }
   max-width: 12ch;
   margin: 0.85rem 0 0;
   font-size: clamp(2.6rem, 4.5vw, 4rem);
-  font-family: "Outfit", sans-serif;
+  font-family: "Playfair Display", serif;
   font-weight: 900;
   line-height: 0.96;
   letter-spacing: -0.03em;
@@ -537,9 +548,12 @@ body, button, input { font: inherit; letter-spacing: 0; }
 
 .section-heading h2 {
   font-size: 1.7rem;
-  font-family: "Outfit", sans-serif;
+  font-family: "Playfair Display", serif;
   font-weight: 800;
-  letter-spacing: -0.02em;
+  letter-spacing: 0;
+}
+.panel h2, .modal h2 {
+  font-family: "Playfair Display", serif;
 }
 
 .section-heading p,
@@ -581,7 +595,8 @@ body, button, input { font: inherit; letter-spacing: 0; }
   background: var(--tag-bg);
   font-size: 0.76rem;
   font-weight: 800;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
   border: 1px solid rgba(99,102,241,0.2);
 }
 
@@ -591,7 +606,23 @@ body, button, input { font: inherit; letter-spacing: 0; }
   flex-wrap: wrap;
   gap: 0.5rem;
   margin-bottom: 1.4rem;
+  align-items: center;
 }
+
+.sort-select {
+  border: 1px solid var(--border);
+  border-radius: 100px;
+  padding: 0.5rem 1rem;
+  color: var(--text);
+  background: var(--surface);
+  font-weight: 700;
+  font-size: 0.86rem;
+  backdrop-filter: blur(12px);
+  outline: none;
+  margin-left: auto;
+}
+.sort-select:focus { border-color: var(--border-glow); }
+.sort-select option { background: var(--surface-strong); color: var(--text); }
 
 .category-row button {
   border: 1px solid var(--border);
@@ -1345,3 +1376,28 @@ body, button, input { font: inherit; letter-spacing: 0; }
   line-height: 1.5;
 }
 
+@keyframes pulseGlow {
+  0% { box-shadow: 0 0 10px rgba(200, 170, 111, 0.2); }
+  50% { box-shadow: 0 0 25px rgba(200, 170, 111, 0.6); }
+  100% { box-shadow: 0 0 10px rgba(200, 170, 111, 0.2); }
+}
+
+.pulse-glow {
+  animation: pulseGlow 2s infinite;
+}
+.pulse-glow.premium-button:not(.ghost) {
+  box-shadow: none;
+}
+
+/* ── Mobile Cart Experience (Stacking) ──────────────────────  */
+@media (max-width: 900px) {
+  .store-layout {
+    grid-template-columns: 1fr;
+  }
+  .side-column {
+    position: relative;
+    top: 0;
+    grid-row: 1; /* Move wallet and cart to the top */
+    margin-bottom: 0;
+  }
+}

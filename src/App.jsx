@@ -13,6 +13,7 @@ import {
   Moon,
   Plus,
   Search,
+  ShieldCheck,
   ShoppingBag,
   SlidersHorizontal,
   Sparkles,
@@ -89,7 +90,7 @@ function FloatingDock({ cartCount, walletAddress, walletStatus }) {
       initial={{ opacity: 0, y: -16 }}
       transition={{ delay: 0.1, type: "spring", stiffness: 280, damping: 22 }}
     >
-      <span className="status-dot" />
+      <span className={`status-dot ${walletAddress ? "connected" : ""}`} />
       <span>{walletAddress ? formatAddress(walletAddress) : walletStatus}</span>
       <span className="cart-badge">
         <ShoppingBag size={12} aria-hidden="true" />
@@ -145,7 +146,7 @@ function ProductCard({ addToCart, index, liked, openDetails, product, selected, 
       animate={{ opacity: 1, y: 0 }}
       className={`product-card${selected ? " selected" : ""}`}
       exit={{ opacity: 0, scale: 0.94 }}
-      initial={{ opacity: 0, y: 22 }}
+      initial={{ opacity: 0, y: 40 }}
       layout
       transition={{ delay: 0.06 + index * 0.05, type: "spring", stiffness: 280, damping: 22 }}
       whileHover={{ y: -7, scale: 1.01 }}
@@ -239,15 +240,17 @@ function CartPanel({ cart, cartCount, changeQty, checkout, totalEth }) {
       <div className="cart-list">
         <AnimatePresence mode="popLayout">
           {cart.length === 0 ? (
-            <motion.p
+            <motion.div
               animate={{ opacity: 1 }}
               className="empty-cart"
               exit={{ opacity: 0 }}
               initial={{ opacity: 0 }}
               key="empty"
+              style={{ display: 'flex', flexDirection: 'column', gap: '1rem', alignItems: 'center' }}
             >
-              Your cart is empty — browse products below.
-            </motion.p>
+              <p style={{ margin: 0 }}>Your cart is empty — browse products below.</p>
+              <PremiumButton kind="ghost" onClick={() => document.querySelector(".catalog")?.scrollIntoView({ behavior: "smooth" })}>Explore Store</PremiumButton>
+            </motion.div>
           ) : (
             cart.map((item) => (
               <motion.div
@@ -289,10 +292,14 @@ function CartPanel({ cart, cartCount, changeQty, checkout, totalEth }) {
           <span>USD estimate</span>
           <strong>${Math.round(totalEth * ethToUsd).toLocaleString()}</strong>
         </div>
-        <PremiumButton onClick={checkout}>
+        <PremiumButton className="pulse-glow" onClick={checkout}>
           <Check size={15} aria-hidden="true" />
           Checkout with wallet
         </PremiumButton>
+        <div style={{ display: 'flex', alignItems: 'center', gap: '0.4rem', justifyContent: 'center', marginTop: '0.5rem', fontSize: '0.75rem', color: '#22d47e' }}>
+          <ShieldCheck size={14} aria-hidden="true" />
+          Secured via Web3
+        </div>
       </div>
     </motion.section>
   );
@@ -665,6 +672,7 @@ export default function App() {
   const [detailProduct, setDetailProduct] = useState(null);
   const [toast, setToast] = useState("");
   const [showCheckoutBlocked, setShowCheckoutBlocked] = useState(false);
+  const [sortBy, setSortBy] = useState("");
 
   /* persist theme */
   useEffect(() => {
@@ -711,12 +719,15 @@ export default function App() {
 
   const filteredProducts = useMemo(() => {
     const q = query.trim().toLowerCase();
-    return products.filter((p) => {
+    let result = products.filter((p) => {
       const cat = activeCategory === "All" || p.category === activeCategory;
       const text = !q || [p.name, p.category, p.desc].join(" ").toLowerCase().includes(q);
       return cat && text;
     });
-  }, [activeCategory, query]);
+    if (sortBy === "price-asc") result.sort((a, b) => a.price - b.price);
+    else if (sortBy === "price-desc") result.sort((a, b) => b.price - a.price);
+    return result;
+  }, [activeCategory, query, sortBy]);
 
   const cartCount = cart.reduce((s, i) => s + i.qty, 0);
   const totalEth = cart.reduce((s, i) => s + i.price * i.qty, 0);
@@ -923,6 +934,11 @@ export default function App() {
                     {cat}
                   </button>
                 ))}
+                <select className="sort-select" value={sortBy} onChange={(e) => setSortBy(e.target.value)} aria-label="Sort products">
+                  <option value="">Recommended</option>
+                  <option value="price-asc">Price: Low to High</option>
+                  <option value="price-desc">Price: High to Low</option>
+                </select>
               </div>
 
               <motion.div className="product-grid" layout>
