@@ -612,16 +612,24 @@ body, button, input { font: inherit; letter-spacing: 0; }
 .sort-select {
   border: 1px solid var(--border);
   border-radius: 100px;
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 2rem 0.5rem 1rem;
   color: var(--text);
-  background: var(--surface);
+  background: var(--surface) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 24 24' fill='none' stroke='%23C8AA6F' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E") no-repeat right 0.8rem center;
   font-weight: 700;
   font-size: 0.86rem;
   backdrop-filter: blur(12px);
   outline: none;
   margin-left: auto;
+  appearance: none;
+  cursor: pointer;
+  transition: color 0.2s, background 0.2s, border-color 0.2s, transform 0.15s;
 }
 .sort-select:focus { border-color: var(--border-glow); }
+.sort-select:hover {
+  color: var(--text);
+  background-color: var(--surface-strong);
+  transform: translateY(-1px);
+}
 .sort-select option { background: var(--surface-strong); color: var(--text); }
 
 .category-row button {

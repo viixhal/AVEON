@@ -61,13 +61,13 @@ function useRipple(ref) {
 }
 
 /* ── PremiumButton ────────────────────────────────────────── */
-function PremiumButton({ children, kind = "solid", ...props }) {
+function PremiumButton({ children, kind = "solid", className = "", ...props }) {
   const ref = useRef(null);
   const triggerRipple = useRipple(ref);
   return (
     <motion.button
       ref={ref}
-      className={`premium-button ${kind}`}
+      className={`premium-button ${kind} ${className}`.trim()}
       onMouseDown={triggerRipple}
       type="button"
       whileHover={{ y: -2, scale: 1.025 }}
@@ -292,11 +292,11 @@ function CartPanel({ cart, cartCount, changeQty, checkout, totalEth }) {
           <span>USD estimate</span>
           <strong>${Math.round(totalEth * ethToUsd).toLocaleString()}</strong>
         </div>
-        <PremiumButton className="pulse-glow" onClick={checkout}>
+        <PremiumButton kind="accent" className="pulse-glow" onClick={checkout}>
           <Check size={15} aria-hidden="true" />
           Checkout with wallet
         </PremiumButton>
-        <div style={{ display: 'flex', alignItems: 'center', gap: '0.4rem', justifyContent: 'center', marginTop: '0.5rem', fontSize: '0.75rem', color: '#22d47e' }}>
+        <div style={{ display: 'flex', alignItems: 'center', gap: '0.4rem', justifyContent: 'center', marginTop: '0.5rem', fontSize: '0.75rem', color: 'var(--accent)' }}>
           <ShieldCheck size={14} aria-hidden="true" />
           Secured via Web3
         </div>
