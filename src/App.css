@@ -24,18 +24,18 @@ body, button, input { font: inherit; letter-spacing: 0; }
   --surface:       rgba(255,255,255,0.40);
   --surface-strong:rgba(255,255,255,0.70);
   --border:        rgba(20,24,26,0.15);
-  --border-glow:   rgba(255,215,0,0.50);
-  --accent:        #DAA520;        /* gold */
-  --accent-2:      #FFD700;        /* bright gold */
-  --accent-3:      #FCE68E;        /* light gold */
+  --border-glow:   rgba(200,170,111,0.50);
+  --accent:        #B59A64;        /* gold */
+  --accent-2:      #C8AA6F;        /* bright gold */
+  --accent-3:      #E3D5BB;        /* light gold */
   --button:        #0d1117;
-  --button-text:   #FFD700;
-  --glow-a:        rgba(255,215,0,0.25);
-  --glow-b:        rgba(218,165,32,0.20);
+  --button-text:   #C8AA6F;
+  --glow-a:        rgba(200,170,111,0.25);
+  --glow-b:        rgba(181,154,100,0.20);
   --card-bg:       rgba(255,255,255,0.45);
   --img-bg:        rgba(230,232,235,0.80);
-  --tag-bg:        rgba(255,215,0,0.15);
-  --tag-text:      #B8860B;
+  --tag-bg:        rgba(200,170,111,0.15);
+  --tag-text:      #9A8256;
 
   position: relative;
   min-height: 100vh;
@@ -51,19 +51,19 @@ body, button, input { font: inherit; letter-spacing: 0; }
   --surface:       #080808;
   --surface-strong:#121212;
   --border:        #1A1A1A;
-  --border-glow:   #FFD700;
-  --button:        #FFD700;
+  --border-glow:   #C8AA6F;
+  --button:        #C8AA6F;
   --button-text:   #000000;
   --glow-a:        rgba(255, 215, 0, 0.25);
   --glow-b:        rgba(218, 165, 32, 0.18);
   --card-bg:       #0A0A0A;
   --img-bg:        rgba(255, 255, 255, 0.02);
   --tag-bg:        rgba(255, 215, 0, 0.12);
-  --tag-text:      #FFD700;
+  --tag-text:      #C8AA6F;
 
-  --accent:        #FFD700;
-  --accent-2:      #DAA520;
-  --accent-3:      #B8860B;
+  --accent:        #C8AA6F;
+  --accent-2:      #B59A64;
+  --accent-3:      #9A8256;
 
   background:
     radial-gradient(ellipse 60% 50% at 10%  5%,  rgba(255, 215, 0, 0.18), transparent),
@@ -74,9 +74,9 @@ body, button, input { font: inherit; letter-spacing: 0; }
 
 .app.light {
   background:
-    radial-gradient(ellipse 55% 45% at 5%   8%,  rgba(255,215,0,0.18), transparent),
-    radial-gradient(ellipse 50% 40% at 95% 12%,  rgba(218,165,32,0.15), transparent),
-    radial-gradient(ellipse 60% 50% at 50% 95%,  rgba(184,134,11,0.08),  transparent),
+    radial-gradient(ellipse 55% 45% at 5%   8%,  rgba(200,170,111,0.18), transparent),
+    radial-gradient(ellipse 50% 40% at 95% 12%,  rgba(181,154,100,0.15), transparent),
+    radial-gradient(ellipse 60% 50% at 50% 95%,  rgba(154,130,86,0.08),  transparent),
     linear-gradient(165deg, #e1e2e6 0%, #ebecef 55%, #d1d3d8 100%);
 }
 
@@ -115,7 +115,7 @@ body, button, input { font: inherit; letter-spacing: 0; }
 .glass-background span:nth-child(3) {
   width: 18rem; height: 18rem;
   left: 40%; bottom: 5%;
-  background: rgba(184,134,11,0.15);
+  background: rgba(154,130,86,0.15);
   --dur: 26s;
   animation-delay: -14s;
 }
@@ -228,7 +228,7 @@ body, button, input { font: inherit; letter-spacing: 0; }
   border-radius: 14px;
   background: linear-gradient(135deg, var(--accent), var(--accent-2));
   color: #fff;
-  box-shadow: 0 8px 24px rgba(255,215,0,0.35);
+  box-shadow: 0 8px 24px rgba(200,170,111,0.35);
 }
 
 .brand strong {
@@ -274,7 +274,7 @@ body, button, input { font: inherit; letter-spacing: 0; }
 
 .search-field:focus-within {
   border-color: var(--border-glow);
-  box-shadow: 0 0 0 3px rgba(255,215,0,0.12);
+  box-shadow: 0 0 0 3px rgba(200,170,111,0.12);
 }
 
 .search-field svg { color: var(--muted); flex-shrink: 0; }
@@ -335,7 +335,7 @@ body, button, input { font: inherit; letter-spacing: 0; }
 .premium-button.accent {
   background: linear-gradient(135deg, var(--accent), var(--accent-2));
   color: #fff;
-  box-shadow: 0 6px 24px rgba(255,215,0,0.35);
+  box-shadow: 0 6px 24px rgba(200,170,111,0.35);
 }
 
 /* ghost */
@@ -383,9 +383,9 @@ body, button, input { font: inherit; letter-spacing: 0; }
   inset: 0;
   border-radius: inherit;
   background: linear-gradient(135deg,
-    rgba(255,215,0,0.06) 0%,
+    rgba(200,170,111,0.06) 0%,
     transparent 50%,
-    rgba(218,165,32,0.04) 100%);
+    rgba(181,154,100,0.04) 100%);
   pointer-events: none;
 }
 
@@ -401,7 +401,7 @@ body, button, input { font: inherit; letter-spacing: 0; }
   text-transform: uppercase;
   background: var(--tag-bg);
   color: var(--tag-text);
-  border: 1px solid rgba(255,215,0,0.25);
+  border: 1px solid rgba(200,170,111,0.25);
 }
 
 .feature-copy h1 {
@@ -451,7 +451,7 @@ body, button, input { font: inherit; letter-spacing: 0; }
 
 .feature-product:hover {
   border-color: var(--border-glow);
-  box-shadow: 0 0 0 1px rgba(255,215,0,0.2), 0 20px 60px rgba(0,0,0,0.14);
+  box-shadow: 0 0 0 1px rgba(200,170,111,0.2), 0 20px 60px rgba(0,0,0,0.14);
 }
 
 /* ── PRODUCT IMAGE wrapper — the key alignment fix ─────────── */
@@ -597,7 +597,7 @@ body, button, input { font: inherit; letter-spacing: 0; }
   font-weight: 800;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  border: 1px solid rgba(255,215,0,0.2);
+  border: 1px solid rgba(200,170,111,0.2);
 }
 
 /* ── Category filter row ──────────────────────────────────── */
@@ -697,7 +697,7 @@ body, button, input { font: inherit; letter-spacing: 0; }
   color: #fff;
   background: linear-gradient(135deg, var(--accent), var(--accent-2));
   border-color: transparent;
-  box-shadow: 0 4px 16px rgba(255,215,0,0.30);
+  box-shadow: 0 4px 16px rgba(200,170,111,0.30);
 }
 
 /* ── Product grid ─────────────────────────────────────────── */
@@ -723,12 +723,12 @@ body, button, input { font: inherit; letter-spacing: 0; }
 
 .product-card:hover {
   border-color: var(--border-glow);
-  box-shadow: 0 0 0 1px rgba(255,215,0,0.15), 0 16px 48px rgba(0,0,0,0.12);
+  box-shadow: 0 0 0 1px rgba(200,170,111,0.15), 0 16px 48px rgba(0,0,0,0.12);
 }
 
 .product-card.selected {
-  border-color: rgba(255,215,0,0.55);
-  box-shadow: 0 0 0 2px rgba(255,215,0,0.20);
+  border-color: rgba(200,170,111,0.55);
+  box-shadow: 0 0 0 2px rgba(200,170,111,0.20);
 }
 
 /* ── product media box — fixed height, centered image ─────── */
@@ -791,7 +791,7 @@ body, button, input { font: inherit; letter-spacing: 0; }
 
 .favorite-button:hover { background: rgba(0,0,0,0.6); transform: scale(1.1); }
 
-.favorite-button.liked { background: rgba(218,165,32,0.80); }
+.favorite-button.liked { background: rgba(181,154,100,0.80); }
 .favorite-button.liked svg,
 .filled-heart { fill: currentColor; }
 
@@ -1325,7 +1325,7 @@ body, button, input { font: inherit; letter-spacing: 0; }
   border-radius: 50%;
   background: var(--tag-bg);
   color: var(--accent);
-  border: 1px solid rgba(255,215,0,0.2);
+  border: 1px solid rgba(200,170,111,0.2);
 }
 
 /* ── copy ─────────────────────────────────────────────── */
